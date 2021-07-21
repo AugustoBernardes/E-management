@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(92, 90, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #434141;
+    padding: 10px;
+    background-color: rgb(38, 36, 36);
+    color: rgba(233, 229, 229, 0.994) ;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.container-main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(38, 36, 36);
+    color: rgb(255, 251, 245);
+    width: 150px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #434141;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(38, 36, 36);
+    background-color: rgb(255, 251, 245);
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 80%;
+    /* background-color: rosybrown; */
+}
+
+img{
+    margin-top: 30px;
+    width: 400px;
+}
+form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #434141;
+}
+
+input{
+    margin-top: 20px;
+    width: 400px;
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.back{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .btn{
+        width: 110px;
+    }
+
+    img{
+        width: 300px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 520px){
+
+    form{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    
+    input{
+        width: 60%;
+    }
+
+}
+
