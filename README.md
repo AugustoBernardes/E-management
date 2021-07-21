@@ -14,7 +14,8 @@ Deliverables:
 -Data without local storage
 -Source code on github with README file detailing programming functionality
 
-I added other functions like, validate the email and the quantity of the product because you can't add nothing or a negative number 
+I added other functions like, validate the email and the quantity of the product because you can't add nothing or a negative number.
+
 This was the result [site](https://e-management.netlify.app)
 
 # Preview 🖥️
