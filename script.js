@@ -35,8 +35,8 @@ function productSubmit(){
     let price = document.getElementById("productPrice").value
     // =====================================
     if(name !==  '' && code !== '' && quantity !==  '' && price !== ''){
-        if(quantity < 0){
-            return alert("The quantity can't be less than 0 !")
+        if(quantity <= 0){
+            return alert("The quantity can't be less or equal than 0 !")
         }else{
             let product = {
                 name: name,
